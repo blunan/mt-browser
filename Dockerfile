@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 # mt-browser: MetaTrader in the browser, on linuxserver's Selkies desktop.
-FROM ghcr.io/linuxserver/baseimage-selkies:debiantrixie@sha256:fefbb88bff4cc8294ad42678b62f7c912da12e88dc4167101b161549fb4ad2d1
+FROM ghcr.io/linuxserver/baseimage-selkies:debiantrixie@sha256:df4a9259e7535526005785202bd08b3b066250a64c65877802b2354fd6a975dd
 
 # Wine's Windows DLLs carry debug information that only crash backtraces use.
 # Stripping it saves about 1 GB unpacked. Set to false for a troubleshooting build.
